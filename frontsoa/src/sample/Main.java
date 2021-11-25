@@ -10,13 +10,15 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/recources/mainInterface.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../recources/mainInterface.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         //stage.initStyle(StageStyle.UNDECORATED);
         primaryStage.setTitle("Bnaaa");
         primaryStage.show();
     }
+
+
 
 
     public static void main(String[] args) {
